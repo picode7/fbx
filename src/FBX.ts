@@ -2,7 +2,7 @@ import { FBXData, FBXReader, FBXReaderNode } from 'fbx-parser'
 
 //https://help.autodesk.com/view/FBX/2015/ENU/
 
-export const enum FBXAxes {
+export enum FBXAxes {
   X = 0,
   Y = 1,
   Z = 2,
