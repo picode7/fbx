@@ -25,6 +25,9 @@ const upAxes = fbx.globalSettings.getUpAxes() ?? FBXAxes.Y
 
 const model = fbx.getModel('MyModel')
 
+const rotNode = model.getRotationNode()
+const rotationX = rotNode.getX()
+
 const rotKeyY = model.getRotationKey(upAxes)
 const rotationsYTimes = rotKeyY?.getTime()
 const rotationsYValues = rotKeyY?.getValue()
